@@ -62,6 +62,7 @@ class CardFrontLayout {
             ],
           ),
           Expanded(
+            flex: 1,
             child: Align(
               alignment: Alignment.bottomLeft,
               child: Container(
@@ -130,10 +131,14 @@ class CardFrontLayout {
                               fontFamily: "MavenPro",
                               fontSize: 17),
                         ),
-
                       ],
                     ),
-                    cardTypeIcon
+                    Expanded(
+                      flex: 9,
+                      child: Align(
+                          alignment: Alignment.bottomRight,
+                          child: cardTypeIcon),
+                    ),
                   ],
                 ),
               ),

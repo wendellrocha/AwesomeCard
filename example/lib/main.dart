@@ -26,10 +26,10 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  String cardNumber = "";
-  String cardHolderName = "";
-  String expiryDate = "";
-  String cvv = "";
+  String cardNumber = "Número no cartão";
+  String cardHolderName = "Títular do cartão";
+  String expiryDate = "00/00";
+  String cvv = "CVV";
   bool showBack = false;
 
   FocusNode _focusNode;
@@ -70,7 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
               cardExpiry: expiryDate,
               cardHolderName: cardHolderName,
               cvv: cvv,
-              bankName: "Axis Bank",
+              bankName: "Psiu! Bank",
               showBackSide: showBack,
               frontBackground: CardBackgrounds.black,
               backBackground: CardBackgrounds.white,
