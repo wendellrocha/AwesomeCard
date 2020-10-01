@@ -79,7 +79,6 @@ class _MyHomePageState extends State<MyHomePage> {
             SizedBox(
               height: 40,
             ),
-
             Column(
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.start,

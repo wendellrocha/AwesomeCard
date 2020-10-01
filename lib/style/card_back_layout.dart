@@ -27,7 +27,7 @@ class CardBackLayout {
         ),
         Row(
           mainAxisAlignment: MainAxisAlignment.start,
-          crossAxisAlignment: CrossAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             Expanded(
               child: Container(
